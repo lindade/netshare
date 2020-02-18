@@ -335,7 +335,7 @@
 
         // Store hash value in a variable
         const hash = this.hash;
-        // Get fixed header height, + 30 px because the py padding y add 30 px to the element
+        // Get fixed header height, - 30 px to compensate the py padding of section elements
         var menuHeight = $('#main-nav').height() - 30;
 
         // Animate smooth scroll
